@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Random image/link for the sub-breed golden"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.704">
+  <properties />
+  
+  
+            <testcase name="getRandomGoldenRetrieverImageLink" time="0.704" classname="APIAutomatedTests.RandomImageLink" />
+      
+</testsuite>

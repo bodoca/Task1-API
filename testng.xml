@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Testing">
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="List all dog breeds">
+    <classes>
+      <class name="APIAutomatedTests.GetAllBreeds"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Verify retriever breed is JSON list.">
+    <classes>
+      <class name="APIAutomatedTests.SearchBreedFromList"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="List sub-breeds for retriever.">
+    <classes>
+      <class name="APIAutomatedTests.BreedSublist"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Random image/link for the sub-breed golden">
+    <classes>
+      <class name="APIAutomatedTests.RandomImageLink"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

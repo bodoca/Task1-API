@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test3"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.684">
+  <properties />
+  
+  
+            <testcase name="getRetrieverSublist" time="0.684" classname="APIAutomatedTests.BreadSublist" />
+      
+</testsuite>
